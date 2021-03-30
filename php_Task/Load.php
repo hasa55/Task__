@@ -2,10 +2,13 @@
 
 //fetch.php
 
+
+
 $connect = new PDO("mysql:host=localhost;dbname=project", "root", "");
 
 for ($i = 1; $i <= 5; $i++)
 {
+	
 	
 $query = "SELECT * FROM Ownership,Car,Brand,Costumer ";
 
